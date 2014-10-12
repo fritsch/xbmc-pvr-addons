@@ -357,8 +357,6 @@ void ADDON_Stop()
   {
     XBMC->Log(LOG_DEBUG, "Shutdown of VDR VNSI PVR-Client");
     VNSIData->Shutdown();
-    XBMC->Log(LOG_DEBUG, "Closing down VDR VNSI PVR-Client");
-    VNSIData->Close();
    }
 }
 
